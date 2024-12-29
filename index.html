@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>This is how to map an array in <strong>Javascript</strong></p>
+    <p id="product_value"></p>
+    <script>
+      var numbers = [50,27,56,10,48,37,28,48,27];
+      
+      function myFunction(num) {
+        return num - 20;
+      }
+      var newarray = numbers.map(myFunction);
+      document.getElementById("product_value").innerHTML = newarray;
+    </script>
+  </body>
+</html>
